@@ -1,0 +1,203 @@
+/*Generales*/
+header{
+  background: #0F8075;
+  height: 10em;
+  }
+body{
+  background: #ddd;
+}
+
+p{
+  font-size: 13px;
+}
+
+.icoAjuste{
+  margin-top: 1.5em;
+}
+
+.ico-round{
+  margin-top: 10px;
+  border-radius: 100%;
+  color: white;
+  padding: 10% 12%;
+  background-color: #0F8075;
+}
+
+a:hover{
+  text-decoration: none;
+}
+h5{
+  color: black;
+  font-weight: bolder;
+}
+/*Contenedor*/
+.cajaMadre{
+  border: solid 1px #bbb;
+  position: absolute;
+  left: 15%;
+  top: 40px;
+  width: 70%;
+  height: 600px;
+  background: #fff;
+}
+/*Ventana de chat*/
+.col-chat{
+  width: 42%;
+  height: 100%;
+  border-right: solid 1px #bbb;
+}
+.block-master-chat{
+  width: 150%;
+  height: 100%;
+  box-sizing: border-box;
+  margin:0px;
+  position: relative;
+  left: 550px;
+  bottom:610px;
+  float: right;
+}
+/*Fondo de chat*/
+.chat{
+  background:url(../image/fondo.jpg);
+  height:500px;
+  margin-left: 3.8em;
+  border-bottom: solid 1px #bbb;
+}
+/*headers contactos y conversación*/
+
+.head-user{
+  background:#eee;
+  width: 100%;
+  height: 55px;
+  border-bottom: solid 1px #bbb;
+}
+
+.head-user2{
+  background:#eee;
+  width: 93%;
+  height: 55px;
+  margin-top: 3px;
+  margin-left: 3.7em;
+  border-bottom: solid 1px #bbb;
+}
+
+/*Barra de busqueda*/
+.search-bar{
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #bbb;
+  padding: 7px;
+}
+.hour{
+  font-size: 10px;
+  text-align: left;
+}
+
+/*Scroll*/
+.scroll{
+  overflow-y: scroll;
+  width: 100%;
+  height:500px;
+  overflow-x:hidden;
+}
+.scroll::-webkit-scrollbar{
+  width: 10px;
+  background: #848484;
+}
+.scroll::-webkit-scrollbar-button{
+  width:8px;
+  height: 5px;
+}
+.scroll::-webkit-scrollbar-track{
+  background:#848484;;
+  border:thin solid #848484;;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-thumb{
+  background: #6E6E6E;
+  border:thin solid #6E6E6E;
+  border-radius: 10px; 
+}
+.scroll::-webkit-scrollbar-thumb:hover{
+    background: #424242;
+}
+/* Pseudo-clase del scroll*/
+.scroll::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(77,161,112,.6);
+}
+
+/*mini vistas de perfiles*/
+.bolita{ 
+  border-radius: 100%;
+  width: 45px;
+  height:45px;
+}
+.fotoPerfil{
+  border-radius: 100%;
+  width:35px;
+  height: 35px;
+  margin:8px;
+  margin-left: 1em;
+}
+.chats{
+  height: 75px;
+  padding: 10px;
+  border-bottom: solid 1px #bbb;
+}
+.usuario{
+  margin: -6px 5px;
+  width: 100%;
+}
+
+/* background input mensajes */
+.text-box{
+  background: #ddd;
+  padding: 2%;
+}
+/*Estilos de input para enviar mensajes*/
+#send{
+  width: 90%;
+}
+.conversacion{
+  width: 300px;
+  height: auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  position: relative;
+}
+.conversaRight{
+  width: auto;
+  height: auto;
+  background: #c6ffb3;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  margin-left: 280px;
+  position: relative;
+}
+
+/*Colores de chats (nombres)*/
+.andrea{
+  color: #3CCAEE;
+}
+.mariana{
+  color: #E72385;
+}
+.paula{
+  color: #34B95A;
+}
+.aldo{
+  color: #E8CA03;
+}
+
+
+
+/*nuevos mensajes que se escriben en el input a través de JS*/
+
+.newMesaje{
+  font-size: 12px;
+}

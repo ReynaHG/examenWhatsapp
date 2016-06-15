@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, user-scalable=no">
+         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+          <!-- Favicon -->
+         <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+
+         <title>Examen | Whatsapp</title>
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+         <!--jQuery UI CSS-->
+         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css" media="screen" />
+         <!--Custom-->
+         <link rel="stylesheet" type="text/css" href="css/main.css">
+
+         <!-- Font-awesome -->
+         <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+         <!-- fontwaesome web -->
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+         <link rel="stylesheet" href="css/icomoon.css">
+
+      </head>
+      <body>
+         <header>
+         <!-- Vacío, pero necesario ;)-->
+         </header>
+         <div class="cajaMadre">
+            <div class="col-chat ">
+               
+               <div class="head-user">
+                  <div class="row">
+                  <div class="col-md-2">
+                     <img src="image/gian.jpg" class="fotoPerfil">
+                  </div>
+                  <div class="col-md-10 text-right icoAjuste">
+                     <a href="" class="text-muted icon-message "></a>
+                     <a href="" class=" text-muted icon-dots-three-vertical"></a>
+                  </div>
+               </div>
+                     
+               </div>
+
+
+               <div class="search-bar">
+                  <div class="row">
+                     <div class="col-md-1 text-center">
+                        <i class="text-muted fa fa-search" aria-hidden="true"></i>
+                     </div>
+                     <div class="col-md-11">
+                          <input id="search" onkeyup="search()" type="text" class="form-control" placeholder=" Buscar o empezar un chat nuevo">
+                     </div>
+                 </div>
+               </div>
+<!-- Tabla de contactos y chats -->
+               <div class="scroll">
+
+                  <table id="datos">
+                   <tr>
+                      <td>
+                         
+                      </td>
+                   </tr>
+                   <!-- inicio chats izquierdos -->
+
+                   <!-- Laboratoria Perú -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/logocodeacademy.png" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Laboratoria Perú</h5>
+                                             <p class="text-muted">Aldo:Dale dale!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">14:25</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin laboratoria Perú  -->
+
+                <!-- Raymi Saldomando -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/raymi.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Raymi Saldomando</h5>
+                                             <p class="text-muted">¡La clase va bien!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">11:25</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Raymi Saldomando  -->
+
+                 <!-- Mariana Costa -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/mariana.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Mariana Costa</h5>
+                                             <p class="text-muted">¡El panel de speakers esta buenazo!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">09:25</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Mariana Costa  -->
+
+                 <!-- Ana María Martinez Franklin -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/anamaria.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Ana María Martinez Franklin</h5>
+                                             <p class="text-muted">¡Pues dale chamo!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">Ayer</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Ana María Martinez Franklin  -->
+
+                 <!-- Rodulfo Prieto -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/rodulfo.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Rodulfo Prieto</h5>
+                                             <p class="text-muted">¡Pues dale chamo!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">Martes</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Rodulfo Prieto  -->
+
+                 <!-- Andrea Lamas -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/andrea.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Andrea Lamas</h5>
+                                             <p class="text-muted">Hoy toca clases de canto, yee!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">Lunes</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Andrea Lamas  -->
+
+                 <!-- Maria Paula Rivarola -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/mariapaula.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Maria Paula Rivarola</h5>
+                                             <p class="text-muted">Wuju! esto me encanta!! en verdad!</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">13/01/2016</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Maria Paula Rivarola  -->
+
+                <!-- Maria Katy Sanchez -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/katy.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Katy Sanchez</h5>
+                                             <p class="text-muted">No te preocupes, tengo el salon bajo control</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">11/01/2016</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Katy Sanchez -->
+
+                 <!-- Aldo Alfaro -->
+                     <tr>
+                        <td>
+                           <a href="#">
+                              <div class="chats">
+                                  <div class="row">
+                                       <div class="col-md-2">
+                                          <img src="image/aldo.jpg" class="bolita">
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class=" usuario">
+                                             <h5>Aldo Alfaro</h5>
+                                             <p class="text-muted">Vao a comer</p>
+                                         </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                           <span class="text-muted hour">03/01/2016</span>
+                                      </div>
+                                 </div>
+                              </div>
+                           </a>
+                        </td>
+                     </tr>
+                <!-- Fin Aldo Alfaro -->
+                  </table>
+               </div>
+<!-- Chat activo -->
+               <div class="block-master-chat">
+                    <div class="head-user2">
+                           <div class="row">
+                             <div class="col-md-2">
+                                <img src="image/logocodeacademy.png" class="fotoPerfil">
+                             </div>
+                              
+                              <div class="col-md-8 ">
+                                 <h5 class="">Laboratoria Perú</h5>
+                                 <p class="text-muted">Ana Maria, Aldo, Gian, Mariana, Papu, Tú</p>
+                              </div>
+                              <div class="col-md-2 icoAjuste">
+                                 <a class="text-muted icon-attachment "></a>
+                                 <a class="text-muted icon-dots-three-vertical"></a>
+                              </div>
+                             </div>
+                         </div>
+                           <div class="chat">
+                              <div class="scroll" id="windowchat">
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="andrea">Andrea Lamas</h5>
+                                       <h6>Chicos han visto el nuevo corte de Aldo?<span class="text-muted pull-right">11:12</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="mariana">Mariana Costa</h5>
+                                       <h6>¿Finalmente se corto><span class="text-muted pull-right">11:13</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="paula">Maria Paula Rivarola</h5>
+                                       <h6>Jajaja Sii finalmente se corto!!<span class="text-muted pull-right">11:13</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversaRight">
+                                       <h6>Antes parecia Mufasa jajajajajaja 
+                                       <span class="text-muted pull-right">11:14</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversaRight">
+                                        <h6>Ahora si esta decente
+                                        <span class="text-muted pull-right ">11:18</span></h6>  
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="andrea">Andrea Lamas</h5>
+                                       <h6>¿Porque se lo habra cortado?<span class="text-muted pull-right">11:20</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="aldo">Aldo Alfaro</h5>
+                                       <h6>Ya ya ya, hacia mucho calor que más 
+                                       <span class="text-muted pull-right ">11:25</span></h6>
+                                     </div>
+                                 </div>
+                                 <div class="disappear">  
+                                    <div class="conversacion">
+                                        <h5 class="andrea">Andrea Lamas</h5>
+                                       <h6>Esta siguiendo los pasos de Juan Diego
+                                       <span class="text-muted pull-right ">11:30</span></h6>
+                                    </div>
+                                 </div>
+                                 <div class="disappear">
+                                    <div class="conversacion">
+                                       <h5 class="paula">Maria Paula Rivarola</h5>
+                                       <h6>Nunca!!! Juan Diego es único 
+                                       <span class="text-muted pull-right ">11:31</span>
+                                       </h6>
+                                    </div>
+                                 </div>
+                                 
+                                 <!-- integra nuevos mensajes a la conversación a través de input  -->
+
+                                 <ul id="newInput" class="list-unstyled disappear"></ul>
+                              </div>
+                           </div>
+                           <div class="row">
+                             <div class="col-md-2 text-right">
+                                <i class="text-muted icoAjuste fa fa-smile-o" aria-hidden="true"></i>
+                             </div>
+                              <div class="col-md-8 text-box" id="chat_div">  
+                                  <input type="text" name="type" class="form-control" id="words" placeholder="Escribe aquí tu mensaje"/>
+                              </div>
+                              <div class="col-md-2">
+                                 <i class="ico-round fa icoAjuste fa-microphone" aria-hidden="true"></i>
+                              </div>
+                           </div>  
+                      </div>
+
+
+
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <script type="text/javascript" src="js/main.js"></script>
+         <script type="text/javascript" src="js/moments.js"></script>
+      </body>
+</html>		
+	
+
+   
+   
+
+               
+               
+               
+               
+               
